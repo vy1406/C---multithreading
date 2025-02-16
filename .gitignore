@@ -1,0 +1,48 @@
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.cache
+*.sqlite
+*.sqlite3
+*.db
+
+# Ignore build directories
+**/bin/
+**/obj/
+**/out/
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# Ignore compiled DLLs and executables
+*.dll
+*.exe
+*.pdb
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*.iso
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.cache
+
+# Ignore Rider and JetBrains files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Linux system files
+*.swp
