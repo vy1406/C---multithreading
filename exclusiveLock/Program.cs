@@ -1,6 +1,7 @@
 ﻿int counter = 0;
 
 object counterLock = new object();
+// System.Threading.Lock counterLock = new System.Threading.Lock(); // .NET 6
 
 Thread thread1 = new Thread(IncrementCounter);
 Thread thread2 = new Thread(IncrementCounter);
